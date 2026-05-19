@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables – NEVER commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Safe to commit (placeholder templates)
+!.env.example
+
+# Build output
+dist/
+build/
+.vite/
+
+# OS
+.DS_Store
